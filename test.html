@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Test Product</h1>
+		<div>
+			<label for="serial">Serial: </label>
+			<input type="text" id="serial" />
+			<input type="submit" value="Submit" id="Submit" />
+		</div>
+		<div>
+			<ul id="list"></ul>
+		</div>
+		<script>
+			const btnSubmit = document.getElementById('Submit')
+
+			function fillList() {
+				const serial = document.getElementById('serial').value
+				let ul = document.getElementById('list')
+				let li = document.createElement('li')
+				li.appendChild(document.createTextNode(serial))
+				ul.appendChild(li)
+			}
+			btnSubmit.addEventListener('click', () => {
+				fillList()
+			})
+		</script>
+	</body>
+</html>

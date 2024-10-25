@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+	font-family: 'Lexend Deca', system-ui;
+	font-optical-sizing: auto;
+}
+
+.box {
+	width: 500px !important;
+	height: 500px !important;
+}
+textarea {
+	height: 400px;
+}
+.thrash {
+	height: 20px !important;
+	width: 25px !important;
+	filter: brightness(0) invert(1) !important;
+}
+
+.github {
+	width: 20px !important;
+	height: 20px !important;
+}
+
+.foot {
+	cursor: pointer;
+}

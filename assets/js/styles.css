@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+* {
+	font-family: 'Rubik Mono One', monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.box {
+	width: 500px !important;
+	height: 500px !important;
+}
+textarea {
+	height: 400px;
+}
+.thrash {
+	height: 20px !important;
+	width: 25px !important;
+	filter: brightness(0) invert(1) !important;
+}
+
+.github {
+	height: 10px !important;
+	width: 10px !important;
+}
